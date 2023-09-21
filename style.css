@@ -479,6 +479,10 @@ nav img{
 
 }
 
+
+
+
+
 @media (max-height: 700px){
     .sec_about{
         height: 250vh;
@@ -490,6 +494,17 @@ nav img{
 /* ============================================================= */
 /* ============================================================= */
 /* ============================================================= */
+
+
+
+p.post{
+    position: absolute;
+    bottom: -13em;
+    font-family: samim;
+    color: #ececec;
+}
+
+
 
 .sec_contact{
     width: 100%;
@@ -619,6 +634,11 @@ nav img{
     }
     .sec_contact .container .form form input{
         margin-top: -.5em;
+    }
+
+    p.post{
+        bottom: 1em;
+        font-size: 14px;
     }
 }
 @media (max-height: 700px){
